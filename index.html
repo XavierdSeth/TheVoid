@@ -18,36 +18,39 @@
 
             <main>
                  
+                <!-- create post -->
                 <section id="composer">
                     <div id="composer-header">
                         <span>New Post</span>
                     </div>
-                    <textarea id="post-input" placeholder="input text..." maxlength="10000"></textarea>
+                    <textarea id="post-text" placeholder="input text..." maxlength="10000"></textarea>
                     <div id="composer-footer">
                         <div id="expiry-options">
                             <span>EXPIRES</span>
-                            <button class="expiry-btn active" data-value="">Never</button>
-                            <button class="expiry-btn" data-value="24h">24 hours</button>
-                            <button class="expiry-btn" data-value="7d">7 days</button>
-                            <button class="expiry-btn" data-value="30d">30 days</button>
+                            <button class="expiry-bun active" data-value="">Never</button>
+                            <button class="expiry-bun" data-value="24h">24 hours</button>
+                            <button class="expiry-bun" data-value="7d">7 days</button>
+                            <button class="expiry-bun" data-value="30d">30 days</button>
                         </div>
                         <div id="composer-side">
                             <span id="char-count">0 / 10000</span>
-                                <button id="submit-btn" disabled>Post to the void</button>
+                                <button id="submit-bun" disabled>Post to the void</button>
                         </div>
                     </div>
                 </section>
 
+                <!-- searching and sorting for posts -->
                 <section id="controls">
-                    <input type="text" id="search-input" placeholder="search for posts..." />
+                    <input type="text" id="search-text" placeholder="search for posts..." />
                     <div id="sort-buttons">
-                        <button class="sort-btn active" data-sort="newest">newest</button>
-                        <button class="sort-btn" data-sort="oldest">oldest</button>
-                        <button class="sort-btn" data-sort="most-liked">most liked</button>
-                        <button class="sort-btn" data-sort="most-commented">most commented</button>                    </div>
-                    <button id="random-btn">random post</button>
+                        <button class="sort-bun active" data-sort="newest">newest</button>
+                        <button class="sort-bun" data-sort="oldest">oldest</button>
+                        <button class="sort-bun" data-sort="most-liked">most liked</button>
+                        <button class="sort-bun" data-sort="most-commented">most commented</button>                    </div>
+                    <button id="random-bun">random post</button>
                 </section>
 
+                <!-- post of the day -->
                 <div id="post-of-day-container"></div>
 
                 <section id="posts-feed"></section>
