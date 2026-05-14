@@ -199,4 +199,4 @@ main {
     transition:border-color 0.15s;
 }
 #search-input:focus { border-color: var(--text-muted); }
-#search-input::placeholder { color: var(--tex-faint); }
+#search-input::placeholder { color: var(--text-faint); }
