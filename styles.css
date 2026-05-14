@@ -88,4 +88,40 @@ main {
     gap: 1.25rem;
 }
 
-
+/* poster (used to be composer) */
+#poster {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+#poster-header {
+    padding: 0.85rem 1.25rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-muted);
+}
+#post-text {
+    width: 100%;
+    min-height: 120px;
+    padding: 1rem 1.25rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    color:var(--text);
+    font-size: 0.95rem;
+    font-family: inherit;
+    resize: none;
+    outline: none;
+    line-height: 1.6;
+}
+#post-text::placeholder { color: var(--text-faint); }
+#poster-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1.25rem;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
