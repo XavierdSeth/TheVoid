@@ -11,7 +11,7 @@ let selectedExpiry = null
 document.addEventListener('DOMContentLoaded', () => {
     loadPosts()
     loadPostOfTheDay()
-    setupComposer()
+    setupPoster()
     setupControls()
     setupThemeToggle()
 })
