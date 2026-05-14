@@ -9,9 +9,9 @@
     --text-faint: #5c5e62;
     --accent: #52d98a;
     --accent-dim: #1b6a46;
-    --post-of-the-day-border: #239871;
-    --post-of-the-day-badge: #125240;
-    --post-of-the-day-badge-text: #58df90;
+    --potd-border: #239871;
+    --potd-badge: #125240;
+    --potd-badge-text: #58df90;
     --bun-bg: #e5e5e6;
     --bun-text: #111214;
     --radius: 12px;
@@ -30,9 +30,9 @@
     --text-faint: #b0b2b5;
     --accent: #1ca14d;
     --accent-dim: #c3f1d3;
-    --post-of-the-day-border: #239b52;
-    --post-of-the-day-badge: #e0f9e8;
-    --post-of-the-day-badge-text: #1f6842;
+    --potd-border: #239b52;
+    --potd-badge: #e0f9e8;
+    --potd-badge-text: #1f6842;
     --bun-bg: #171819;
     --bun-text: #fbfbfa;
 }
