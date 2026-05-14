@@ -231,4 +231,4 @@ main {
     cursor: pointer;
     transition: all 0.15s;
 }
-#random-btm:hover { color: var(--text); border-color: var(--text-muted); }
+#random-bun:hover { color: var(--text); border-color: var(--text-muted); }
