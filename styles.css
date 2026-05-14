@@ -88,7 +88,8 @@ main {
     gap: 1.25rem;
 }
 
-/* poster (used to be composer) */
+/* poster */
+/* proud of this */
 #poster {
     background: var(--bg-card);
     border: 1px solid var(--border);
