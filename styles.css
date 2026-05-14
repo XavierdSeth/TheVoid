@@ -78,5 +78,14 @@ header h1 {
 }
 #theme-toggle:hover { border-color: var(--text-muted);}
 
+/* main css */
+main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
 
 
