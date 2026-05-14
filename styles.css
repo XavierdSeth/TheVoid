@@ -154,3 +154,26 @@ main {
     border-color: var(--text-muted);
     color: var(--text);
 }
+#poster-right {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+#char-count {
+    font-size: 0.8rem;
+    color: var(--text-faint);
+}
+#char-count.warn { color: #f76f70}
+#submit-bun {
+    padding: 8px 18px;
+    border-radius: var(--radius-pill);
+    border: none;
+    background: var(--bun-bg);
+    color: var(--bun-text);
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+#submit-bun:hover { opacity: 0.85s; }
+#submit-bun:disabled { opacity: 0.35s; cursor: not-allowed; }
